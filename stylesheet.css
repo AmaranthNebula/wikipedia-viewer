@@ -10,6 +10,10 @@ html, body {
     background: url("images/concrete_wall.png") repeat fixed;
     background-size: 50%;
 }
+#container {
+    height: 100%;
+    width: 100%;
+}
 header {
     display: flex;
     flex-direction: column;
@@ -73,6 +77,12 @@ header > h1 {
     padding-bottom: 2em;
  }
 
+.searchResult {
+    background-color: rgba(255, 255,255,0.95);
+    margin: 2em;
+    padding: 1em;
+    
+}
 
 footer {
     position: absolute;
@@ -84,6 +94,7 @@ footer {
     text-align: center;
     font-size: 0.8em;
 }
+
 footer p a {
     text-decoration: none;
     color: black;
